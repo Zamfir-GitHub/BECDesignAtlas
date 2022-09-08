@@ -1,0 +1,7 @@
+name: landingpage
+title: LandingPage
+desc: Customise the landing page!
+author: Zamfir Dumitru
+version: 1.0
+default_priority: 999999
+category: User interface
