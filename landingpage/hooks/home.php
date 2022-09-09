@@ -132,7 +132,7 @@ function HookLandingPageHomeReplacehome()
 												<span>
 													<span>
 														<span class="text-line bkg-white mb-10"></span>
-														<span class="project-title"></span>
+														<span class="project-title">Now Playing</span>
 														<span class="project-description">Playing now on Built Environmental Channel</span>
 													</span>
 												</span>
