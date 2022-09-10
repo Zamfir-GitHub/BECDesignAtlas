@@ -61,6 +61,14 @@ Copyright: ThemeMountain
 	left: 16px;
   }
   
+  /*
+  .middle-left {
+	position: absolute;
+	top:50%;
+	left: 12px;
+  }*/
+  
+
   /* Top right text */
   .top-right {
 	position: absolute;
