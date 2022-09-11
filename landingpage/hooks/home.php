@@ -108,7 +108,7 @@ function HookLandingPageHomeReplacehome()
 
 									<div class="grid-item portrait portraits">
 								
-										<div class="thumbnail " data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.0">
+										<div class="thumbnail " data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.5">
 										
 											<a>
 												<img src="../plugins/landingpage/images/design_atlas/HomePage/Hero_Shot.png" alt=""/>
@@ -117,7 +117,7 @@ function HookLandingPageHomeReplacehome()
 													<span>
 														<span>
 															<span class="project-description">Brought to you by</span>
-															<span class="text-line bkg-white mb-0"></span>
+															<!--<span class="text-line bkg-white mb-10"></span>-->
 															<span class="project-title">BUILT ENVIRONMENTAL CHANNEL</span>
 															<!--<span class="project-description">BUILT ENVIRONMENTAL CHANNEL</span>-->
 															<!-- <div class="centered">Centered</div>-->
@@ -130,14 +130,14 @@ function HookLandingPageHomeReplacehome()
 
 									</div>
 									<div class="grid-item nature">
-										<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.4">
+										<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.5">
 											<a href="https://www.becdesignatlas.com.au/pages/search.php?search=collection:Playing Now">
 												<img src="../plugins/landingpage/images/design_atlas/HomePage/aa.jpg" alt=""/>
 												<span class="overlay-info v-align-bottom left">
 													<span>
 														<span>
-															<span class="text-line bkg-white mb-10"></span>
-															<span class="project-title">Now Playing</span>
+															<!--<span class="text-line bkg-white mb-10"></span>-->
+															<span class="project-title">Search - Now Playing</span>
 															<span class="project-description">Playing now on Built Environmental Channel</span>
 														</span>
 													</span>
@@ -146,14 +146,14 @@ function HookLandingPageHomeReplacehome()
 										</div>
 									</div>
 									<div class="grid-item portraits">
-										<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.4">
+										<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.5">
 											<a href="https://www.becdesignatlas.com.au/pages/search.php?search=collection:Projects">
 												<img src="../plugins/landingpage/images/design_atlas/HomePage/bb.jpg" alt=""/>
 												<span class="overlay-info v-align-bottom left">
 													<span>
 														<span>
-															<span class="text-line bkg-white mb-10"></span>
-															<span class="project-title">Projects</span>
+															<!--<span class="text-line bkg-white mb-10"></span>-->
+															<span class="project-title">Search - Projects</span>
 															<span class="project-description">Be inspired by more than 23,000 searchable project images from across the globe</span>
 														</span>
 													</span>
@@ -162,14 +162,14 @@ function HookLandingPageHomeReplacehome()
 										</div>
 									</div>
 									<div class="grid-item fashion">
-										<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.4">
+										<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.5">
 											<a href="https://www.becdesignatlas.com.au/pages/search.php?search=collection:Industry News" >
 												<img src="../plugins/landingpage/images/design_atlas/HomePage/cc.jpg" alt=""/>
 												<span class="overlay-info v-align-bottom left">
 													<span>
 														<span>
-															<span class="text-line bkg-white mb-10"></span>
-															<span class="project-title">Industry News</span>
+															<!--<span class="text-line bkg-white mb-10"></span>-->
+															<span class="project-title">Search - Industry News</span>
 															<span class="project-description">Expert knowledge and local industry news</span>
 														</span>
 													</span>
@@ -178,14 +178,14 @@ function HookLandingPageHomeReplacehome()
 										</div>
 									</div>
 									<div class="grid-item animals">
-										<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.4">
+										<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.5">
 											<a href="https://www.becdesignatlas.com.au/pages/search.php?search=collection:Products" >
 												<img src="../plugins/landingpage/images/design_atlas/HomePage/dd.jpg" alt=""/>
 												<span class="overlay-info v-align-bottom left">
 													<span>
 														<span>
-															<span class="text-line bkg-white mb-10"></span>
-															<span class="project-title">Products</span>
+															<!--<span class="text-line bkg-white mb-10"></span>-->
+															<span class="project-title">Search - Products</span>
 															<span class="project-description">Discover products for your next project</span>
 														</span>
 													</span>
@@ -253,6 +253,70 @@ function HookLandingPageHomeReplacehome()
 	return true;
 }
 
+
+/*
+function HookLandingPageHomeSearchbarremove(){
+
+return true;
+}*/
+
+/*
+function HookLandingPageHomeModifyomitsearchbarpages(){
+
+	$omit_searchbar_pages = array(
+        'index',
+        'preview_all',
+        'search_advanced',
+        'preview',
+        'admin_header',
+        'login',
+        'user_request',
+        'user_password',
+        'user_change_password',
+        'document_viewer',
+		'home'
+    );
+	return $omit_searchbar_pages;
+}*/
+
+
+/*
+function HookLandingPageHomeReplace_searchbarcontainer(){
+
+	if(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on')   
+	$url = "https://";   
+	else  
+		$url = "http://";   
+	// Append the host(domain name, ip) to the URL.   
+	$url.= $_SERVER['HTTP_HOST'];   
+
+	// Append the requested resource location to the URL   
+	//$url.= $_SERVER['REQUEST_URI'];    
+	
+	$url2 = "https://www.becdesignatlas.com.au";
+	if (strcmp($url, $url2) !== 0) {
+		echo '<div class="row"> <h>$var1 is not equal to $var2 in a case sensitive string comparison</h> </div>';
+	}else{
+		return true;
+	}
+
+	debug_to_console($url);
+	//echo "<p>".$url."</p>";  
+	//console.log($url);
+
+
+	//if($CurPageURL == "https://www.becdesignatlas.com.au/pages/home.php")return true;
+
+	return false;	
+}*/
+
+function debug_to_console($data) {
+    $output = $data;
+    if (is_array($output))
+        $output = implode(',', $output);
+
+    echo "<script>console.log('Debug Objects: " . $output . "' );</script>";
+}
 
 /*
 
