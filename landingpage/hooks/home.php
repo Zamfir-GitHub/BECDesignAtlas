@@ -83,126 +83,164 @@ function HookLandingPageHomeReplacehome()
 				Header End -->
 
 				<!-- Content -->
-				<div class="content clearfix">
+			<div class="content clearfix">
 
-					<!-- Intro Title Section 1 -->
-					<div class="section-block intro-title pt-80 pb-40 clear-height">
-						<div class="middle-left">
-							<div class="column width-6">
-								<div class="title-container">
-									<div class="title-container-inner">
-										<p class="title-small font-alt-1 weight-light color-charcoal horizon" data-animate-in="preset:slideInUpShort;duration:800ms;">
-											Explore our library of <strong>global projects, industry news, and products </strong> that have been showcased on our innovative digital screen network, the <strong>Built Environmental Channel</strong>.
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				
-					
-					<div class="section-block grid-container fade-in-progressively full-width small-margins no-padding-top no-padding-bottom" data-layout-mode="masonry" data-grid-ratio="1.5" data-animate-filter-duration="700" data-set-dimensions data-animate-resize data-animate-resize-duration="0" data-as-bkg-image>
-						<div class="row">
-							<div class="column width-12">
-								<div id="grid-1" class="row grid content-grid-3">
-
-									<div class="grid-item portrait portraits">
-								
-										<div class="thumbnail " data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.5">
-										
-											<a>
-												<img src="../plugins/landingpage/images/design_atlas/HomePage/Hero_Shot.png" alt=""/>
-
-												<span class="overlay-info v-align-bottom left">
-													<span>
-														<span>
-															<span class="project-description">Brought to you by</span>
-															<!--<span class="text-line bkg-white mb-10"></span>-->
-															<span class="project-title">BUILT ENVIRONMENTAL CHANNEL</span>
-															<!--<span class="project-description">BUILT ENVIRONMENTAL CHANNEL</span>-->
-															<!-- <div class="centered">Centered</div>-->
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-
-
-									</div>
-									<div class="grid-item nature">
-										<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.5">
-											<a href="https://www.becdesignatlas.com.au/pages/search.php?search=collection:Playing Now">
-												<img src="../plugins/landingpage/images/design_atlas/HomePage/aa.jpg" alt=""/>
-												<span class="overlay-info v-align-bottom left">
-													<span>
-														<span>
-															<!--<span class="text-line bkg-white mb-10"></span>-->
-															<span class="project-title">Search - Now Playing</span>
-															<span class="project-description">Playing now on Built Environmental Channel</span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div class="grid-item portraits">
-										<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.5">
-											<a href="https://www.becdesignatlas.com.au/pages/search.php?search=collection:Projects">
-												<img src="../plugins/landingpage/images/design_atlas/HomePage/bb.jpg" alt=""/>
-												<span class="overlay-info v-align-bottom left">
-													<span>
-														<span>
-															<!--<span class="text-line bkg-white mb-10"></span>-->
-															<span class="project-title">Search - Projects</span>
-															<span class="project-description">Be inspired by more than 23,000 searchable project images from across the globe</span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div class="grid-item fashion">
-										<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.5">
-											<a href="https://www.becdesignatlas.com.au/pages/search.php?search=collection:Industry News" >
-												<img src="../plugins/landingpage/images/design_atlas/HomePage/cc.jpg" alt=""/>
-												<span class="overlay-info v-align-bottom left">
-													<span>
-														<span>
-															<!--<span class="text-line bkg-white mb-10"></span>-->
-															<span class="project-title">Search - Industry News</span>
-															<span class="project-description">Expert knowledge and local industry news</span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div class="grid-item animals">
-										<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.5">
-											<a href="https://www.becdesignatlas.com.au/pages/search.php?search=collection:Products" >
-												<img src="../plugins/landingpage/images/design_atlas/HomePage/dd.jpg" alt=""/>
-												<span class="overlay-info v-align-bottom left">
-													<span>
-														<span>
-															<!--<span class="text-line bkg-white mb-10"></span>-->
-															<span class="project-title">Search - Products</span>
-															<span class="project-description">Discover products for your next project</span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-								
-								</div>
-							</div>
-						</div>
-					</div>
-
-				
-
+<!-- Intro Title Section 1 -->
+<div class="section-block intro-title pt-80 pb-60 clear-height">
+	<div class="middle-left">
+		<div class="column width-10">
+			<div class="title-container">
+				<div class="title-container-inner">
+					<p class="title-small weight-light color-charcoal horizon" data-animate-in="preset:slideInUpShort;duration:800ms;">
+						Explore our library of <strong>global projects, industry news, and products </strong> that have been showcased on our <br> innovative digital screen network, the <strong>Built Environment Channel</strong>.
+					</p>
 				</div>
-				<!-- Content End -->
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--<img src="../plugins/landingpage/images/design_atlas/LOGO/BEC_Logo.png" class="herologo" >-->
+
+
+<div class="section-block grid-container fade-in-progressively full-width small-margins no-padding-top no-padding-bottom" data-layout-mode="masonry" data-grid-ratio="1.5" data-animate-filter-duration="700" data-set-dimensions data-animate-resize data-animate-resize-duration="0" data-as-bkg-image>
+	<div class="row">
+		<div class="column width-12">
+			<div id="grid-1" class="row grid content-grid-3">
+
+				<div class="grid-item portrait portraits">
+			
+					<div class="thumbnail " data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.0">
+					
+						<a  >
+							<img src="../plugins/landingpage/images/design_atlas/HomePage/Hero_Shot2.jpg" alt=""/>
+
+							<span class="overlay-info v-align-bottom left">
+								<span>
+									<span>
+										<span class="project-title">Brought to you by</span>
+										<span class="text-line mb-0"></span>
+										<span class="project-title">BUILT ENVIRONMENT CHANNEL</span>
+										<!--<span class="project-description">BUILT ENVIRONMENT CHANNEL</span>-->
+										<!-- <div class="centered">Centered</div>-->
+									</span>
+								</span>
+							</span>
+						</a>
+					</div>
+				</div>
+
+				<!--<img src="../plugins/landingpage/images/design_atlas/LOGO/BEC_Logo.png" class="herologo" >-->
+
+				<div class="grid-item nature">
+				
+					<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.4">
+						
+						<a href="https://www.becdesignatlas.com.au/pages/search.php?search=collection:Playing Now">
+							
+							<img src="../plugins/landingpage/images/design_atlas/HomePage/01.jpg" alt=""/>
+							
+							<span class="overlay-info v-align-bottom left">
+								<span>
+								
+									<span>
+										
+										<!--<span class="text-line bkg-white mb-10"></span>
+										<span class="project-title">Search - Now Playing</span>-->
+										<span class="project-description">Playing now on Built Environment Channel</span>
+									</span>
+								</span>
+							</span>
+							<div class="absolute">
+								<span class="centered">
+									<span class="tile-header">Search Now Playing</span>
+								</span>
+							</div>
+						</a>
+						
+					</div>
+
+					
+				</div>
+				<div class="grid-item portraits">
+					<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#000000" data-hover-bkg-opacity="50">
+						<a href="https://www.becdesignatlas.com.au/pages/search.php?search=collection:Projects">
+							<img src="../plugins/landingpage/images/design_atlas/HomePage/02.jpg" alt=""/>
+							<span class="overlay-info v-align-bottom left">
+								<span>
+									<span>
+										<!--<span class="text-line bkg-white mb-50"></span>
+										<span class="project-title">Search - Projects</span>-->
+										<span class="project-description">Be inspired by more than 23,000 searchable project images from across the globe</span>
+									</span>
+								</span>
+							</span>
+							<div class="absolute">
+								<span class="centered">
+									<span class="tile-header">Search Projects</span>
+								</span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="grid-item fashion">
+					<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.5">
+						<a href="https://www.becdesignatlas.com.au/pages/search.php?search=collection:Industry News" >
+							<img src="../plugins/landingpage/images/design_atlas/HomePage/03.jpg" alt=""/>
+							<span class="overlay-info v-align-bottom left">
+								<span>
+									<span>
+										<!--<span class="text-line bkg-white mb-10"></span>
+										<!--<span class="project-title">Search - Industry News</span>-->
+										<span class="project-description">Expert knowledge and local industry news</span>
+									</span>
+								</span>
+							</span>
+							<div class="absolute">
+								<span class="centered">
+									<span class="tile-header">Search Industry News</span>
+								</span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="grid-item animals">
+					<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.5">
+						<a href="https://www.becdesignatlas.com.au/pages/search.php?search=collection:Products" >
+							<img src="../plugins/landingpage/images/design_atlas/HomePage/04.jpg" alt=""/>
+							
+						
+						
+							<span class="overlay-info v-align-bottom left">
+								<span>
+									<span>
+										<span class="project-title"></span>
+										<span class="project-description">Discover products for your next project</span>
+									</span>
+								</span>
+							</span>
+
+							<div class="absolute">
+								<span class="centered">
+									<span class="tile-header">Search Products</span>
+								</span>
+							</div>
+
+						</a>
+					</div>
+
+					
+				</div>
+			
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+</div>
+<!-- Content End -->
 
 				
 				<!-- Footer -->
@@ -213,7 +251,7 @@ function HookLandingPageHomeReplacehome()
 							<!-- 
 							<div class="column width-3">
 								<div class="widget">
-									<h4 class="widget-title"><strong>Built Environmental Channel</strong></h4>
+									<h4 class="widget-title"><strong>Built Environment Channel</strong></h4>
 								</div>
 							</div>
 							-->
@@ -226,7 +264,7 @@ function HookLandingPageHomeReplacehome()
 										<li><a href="#"><span class="icon-instagram small"></span></a></li>
 									</ul>-->
 									<p class="copyright">
-										&copy; Built Environmental Channel. All Rights Reserved.
+										&copy; Built Environment Channel. All Rights Reserved.
 									</p>
 								</div>
 							</div>
