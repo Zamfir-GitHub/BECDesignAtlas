@@ -209,11 +209,14 @@ function HookLandingPageHomeReplacehome()
 				<footer class="footer">
 					<div class="footer-top">
 						<div class="row flex">
+
+							<!-- 
 							<div class="column width-3">
 								<div class="widget">
 									<h4 class="widget-title"><strong>Built Environmental Channel</strong></h4>
 								</div>
 							</div>
+							-->
 							
 							<div class="column width-6 right left-on-mobile">
 								<div class="widget">
