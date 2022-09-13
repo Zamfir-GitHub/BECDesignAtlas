@@ -5,85 +5,16 @@
 function HookLandingPageHomeReplacehome()
 {
 	?>
-<!--
-	<head>
-	<meta charset="UTF-8" />
-	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport">
--->
-	<!--<meta name="twitter:widgets:theme" content="light">
-	<meta property="og:title" content="Your-Title-Here" />
-	<meta property="og:type" content="website" />
-	<meta property="og:image" content="Your-Image-Url" />
-	<meta property="og:description" content="Your-Page-Description" />
-	<title>BEC Design Atlas | Search Architecture Projects</title>-->
-	<!--<link rel="shortcut icon" type="image/x-icon" href="images/theme-mountain-favicon.ico">-->
-
-	
-	<!--</head>-->
 
 
-	<body class="shop home-page">
+	<body>
 
-	<!-- Font -->
-	<link href='https://fonts.googleapis.com/css?family=Raleway:300,400,600%7CLato:300,400,700' rel='stylesheet' type='text/css'>
 	
 	<!-- Css-->
 	<link rel="stylesheet" href="../plugins/landingpage/css/core.min.css" />
 	<link rel="stylesheet" href="../plugins/landingpage/css/skin-photo-studio.css" />
 
-
-		<div class="wrapper reveal-side-navigation">
-			<div class="wrapper-inner">
-
-				<!-- Header 
-				<header class="header header-fixed-on-mobile" data-sticky-threshold="0" data-bkg-threshold="100">
-					<div class="header-inner">
-						<div class="row nav-bar">
-							<div class="column width-14 nav-bar-inner">
-								<div class="logo">
-									<div class="logo-inner">
-										<a href="index.html"><img src="../plugins/landingpage/images/design_atlas/LOGO/DesignAtlas_Logo.png" alt="Design Atlas Logo" /></a>
-										<a href="index.html"><img src="../plugins/landingpage/images/design_atlas/LOGO/DesignAtlas_Favicon/DesignAtlas-Favicon-1.png" alt="Design Atlas Logo" /></a>
-									</div>
-								</div>
-								
-
-									<nav class="navigation nav-block primary-navigation nav-right">
-										<ul>
-											<li >
-												<a href="https://www.becdesignatlas.com.au/pages/home.php" >
-													Dash</a>
-											</li>
-											<li >
-												<a href="https://www.becdesignatlas.com.au/pages/search.php?search=collection:Playing Now">
-													Now Playing</a>
-											</li>
-											<li >
-												<a href="https://www.becdesignatlas.com.au/pages/search.php?search=collection:Projects">
-													Projects</a>
-											</li>
-											<li >
-												<a href="https://www.becdesignatlas.com.au/pages/search.php?search=collection:Industry News" >
-													Industry News</a>
-												
-											</li>
-											<li >
-												<a href="https://www.becdesignatlas.com.au/pages/search.php?search=collection:Products" >
-													Products</a>
-												
-											</li>
-											
-										</ul>
-									</nav> 
-
-							</div>
-						</div>
-					</div>
-				</header>
-				Header End -->
-
-				<!-- Content -->
-			<div class="content clearfix">
+	
 
 <!-- Intro Title Section 1 -->
 <div class="section-block intro-title pt-80 pb-60 clear-height">
@@ -100,7 +31,6 @@ function HookLandingPageHomeReplacehome()
 	</div>
 </div>
 
-<!--<img src="../plugins/landingpage/images/design_atlas/LOGO/BEC_Logo.png" class="herologo" >-->
 
 
 <div class="section-block grid-container fade-in-progressively full-width small-margins no-padding-top no-padding-bottom" data-layout-mode="masonry" data-grid-ratio="1.5" data-animate-filter-duration="700" data-set-dimensions data-animate-resize data-animate-resize-duration="0" data-as-bkg-image>
@@ -151,7 +81,7 @@ function HookLandingPageHomeReplacehome()
 									</span>
 								</span>
 							</span>
-							<div class="absolute">
+							<div class="tileoverlay">
 								<span class="centered">
 									<span class="tile-header">Search Now Playing</span>
 								</span>
@@ -175,7 +105,7 @@ function HookLandingPageHomeReplacehome()
 									</span>
 								</span>
 							</span>
-							<div class="absolute">
+							<div class="tileoverlay">
 								<span class="centered">
 									<span class="tile-header">Search Projects</span>
 								</span>
@@ -196,7 +126,7 @@ function HookLandingPageHomeReplacehome()
 									</span>
 								</span>
 							</span>
-							<div class="absolute">
+							<div class="tileoverlay">
 								<span class="centered">
 									<span class="tile-header">Search Industry News</span>
 								</span>
@@ -210,7 +140,6 @@ function HookLandingPageHomeReplacehome()
 							<img src="../plugins/landingpage/images/design_atlas/HomePage/04.jpg" alt=""/>
 							
 						
-						
 							<span class="overlay-info v-align-bottom left">
 								<span>
 									<span>
@@ -220,7 +149,7 @@ function HookLandingPageHomeReplacehome()
 								</span>
 							</span>
 
-							<div class="absolute">
+							<div class="tileoverlay">
 								<span class="centered">
 									<span class="tile-header">Search Products</span>
 								</span>
